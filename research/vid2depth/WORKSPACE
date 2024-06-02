@@ -59,11 +59,11 @@ check_bazel_version_at_least("0.5.4")
 # TODO(rodrigoq): rename to com_github_antonovvk_bazel_rules to match cartographer.
 http_archive(
     name = "bazel_rules",
-    sha256 = "b6e1b6cfc17f676c70045deb6d46bb330490693e65c8d541aae265ea34a48c8c",
-    strip_prefix = "bazel_rules-0394a3b108412b8e543fd90255daa416e988c4a1",
+    sha256 = "551da464ac6d2990473dda903c6cc022bf2f4b1540ba661ca7e4382a8914acd0",
+    strip_prefix = "bazel_rules-da0b024f29cbd8cad5cf29e7509327a312353864",
     urls = [
-        "https://mirror.bazel.build/github.com/drigz/bazel_rules/archive/0394a3b108412b8e543fd90255daa416e988c4a1.tar.gz",
-        "https://github.com/drigz/bazel_rules/archive/0394a3b108412b8e543fd90255daa416e988c4a1.tar.gz",
+        "https://mirror.bazel.build/github.com/drigz/bazel_rules/archive/da0b024f29cbd8cad5cf29e7509327a312353864.tar.gz",
+        "https://github.com/drigz/bazel_rules/archive/da0b024f29cbd8cad5cf29e7509327a312353864.tar.gz",
     ],
 )
 
