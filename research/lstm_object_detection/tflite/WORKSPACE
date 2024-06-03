@@ -38,11 +38,11 @@ http_archive(
 # gflags needed by glog
 http_archive(
     name = "com_github_gflags_gflags",
-    sha256 = "6e16c8bc91b1310a44f3965e616383dbda48f83e8c1eaa2370a215057b00cabe",
-    strip_prefix = "gflags-77592648e3f3be87d6c7123eb81cbad75f9aef5a",
+    sha256 = "d68d13fd62957314d67b239bea6d6957b11e58ce53fa0e8d6f5ecb212ec7f9e0",
+    strip_prefix = "gflags-a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd",
     urls = [
-        "https://mirror.bazel.build/github.com/gflags/gflags/archive/77592648e3f3be87d6c7123eb81cbad75f9aef5a.tar.gz",
-        "https://github.com/gflags/gflags/archive/77592648e3f3be87d6c7123eb81cbad75f9aef5a.tar.gz",
+        "https://mirror.bazel.build/github.com/gflags/gflags/archive/a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd.tar.gz",
+        "https://github.com/gflags/gflags/archive/a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd.tar.gz",
     ],
 )
 
