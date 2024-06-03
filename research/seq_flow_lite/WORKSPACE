@@ -6,10 +6,10 @@ load("@//third_party/py:python_configure.bzl", "python_configure")
 
 http_archive(
     name = "com_github_google_glog",
-    sha256 = "8476f6b3be29b3ebecc7de058183d510acec6e6dcef35d416cc3ac407a3a5645",
-    strip_prefix = "glog-a79416bab739907a31a1e139540921ff0492f010",
+    sha256 = "2559eb0955424bb23662c751a73b6eb55f5fe3e7430d2fde99cfd8eee779eded",
+    strip_prefix = "glog-cd4ef77d583a02029c0370638fecfc86fd24732d",
     urls = [
-        "https://github.com/google/glog/archive/a79416bab739907a31a1e139540921ff0492f010.zip",
+        "https://github.com/google/glog/archive/cd4ef77d583a02029c0370638fecfc86fd24732d.zip",
     ],
 )
 
